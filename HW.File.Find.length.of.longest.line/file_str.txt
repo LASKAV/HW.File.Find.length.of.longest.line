@@ -1,0 +1,16 @@
+$ pip install git+https://github.com/eternnoir/pyTelegramBotAPI.git
+It is generally recommended to use the first option.
+
+While the API is production-ready, it is still under development and it has regular updates, do not forget to update it regularly by calling
+
+pip install pytelegrambotapi --upgrade
+Writing your first bot
+Prerequisites
+It is presumed that you have obtained an API token with @BotFather. We will call this token TOKEN. Furthermore, you have basic knowledge of the Python programming language and more importantly the Telegram Bot API.
+
+A simple echo bot
+The TeleBot class (defined in _init_.py) encapsulates all API calls in a single class. It provides functions such as send_xyz (send_message, send_document etc.) and several ways to listen for incoming messages.
+
+Create a file called echo_bot.py. Then, open the file and create an instance of the TeleBot class.
+
+import telebot
