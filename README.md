@@ -1,1 +1,1 @@
-# HW.File.Find.length.of.longest.line
+ Найти длину самой длинной строки.
